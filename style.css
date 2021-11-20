@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Roboto&display=swap');
+
+body{
+    background-color: #E0FFFF;
+    color: MidnightBlue;
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    width: 290px;
+    height: 294.5px;
+    background-color: PaleTurquoise;
+    border-radius: 28px;
+    box-shadow: 3px 3px 14px Aquamarine;
+}
+
+#info{
+    display: flex;
+    color: royalblue;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 700px) {
+    #info{
+        display: block;
+        text-align: center;
+    }
+   
+    ul li{
+        max-width: 220px;
+    }
+}
+
+#info-text{
+    margin-left: 40px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+
+#container{
+    max-width: 75%;
+    margin: auto;
+}
+
+.bg-Lavender{
+    
+    background-color: Lavender;
+}
+
+.bg-PeachPuff{
+    background-color: PeachPuff;
+}
+
+.bg-Coral{
+    background-color: rgba(255, 223, 80 , 0.6);
+}
+
+.bg-Olive{
+    background-color: rgba(136, 136, 4, 0.65);
+}
+
+.bg-Wheat{
+    background-color: Wheat;
+}
+
+.bg-GreenYellow{
+    background-color: GreenYellow;
+}
+
+.card{
+    padding: 15px 10px;
+    margin-bottom: 5px;
+    border-radius: 18px;
+}
+
+ul{
+    padding: 0 20px;
+    list-style: none;
+
+}
+
+ul li{
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+    width: 300px;
+}
+
+table{
+    width: 100%;
+}
+
+table td{
+    padding-bottom: 10px;
+}
+table td:nth-child(2){
+    padding-left: 25px;
+}
+table tr:nth-child(even){
+    opacity: 0.65;
+}
