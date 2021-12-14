@@ -24,8 +24,8 @@ img{
     #info{
         display: block;
         text-align: center;
-    }
-   
+        margin-left: -15px;
+    } 
     ul li{
         max-width: 220px;
     }
