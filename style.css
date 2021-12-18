@@ -28,6 +28,10 @@ img{
     } 
     ul li{
         max-width: 220px;
+        margin: auto;
+    }
+    .card{
+        margin-left: -5px;
     }
 }
 
