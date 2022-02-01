@@ -115,7 +115,10 @@ table tr:nth-child(even){
     opacity: 0.65;
 }
 
-.datelink:hover{
+.datelink{
     display: flex;
     background-color: rgba(255, 223, 80, 0.9);
+}
+.datelink:hover{
+    background-color: rgba(255, 223, 80 , 0);
 }
