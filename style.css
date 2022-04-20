@@ -65,7 +65,6 @@ img{
     #name-label{
         margin-left: 30%;
     }
-    
 }
 @media(max-width:1010px){
     #info-text{
@@ -90,12 +89,12 @@ a:visited{
 }
 
 .bg-Lavender{
-    
     background-color: Lavender;
 }
 
 .bg-PeachPuff{
     background-color: PeachPuff;
+    box-shadow: inset 6px 3px 5px 2px rgba(179, 130, 87, 0.7);
 }
 
 .bg-Coral{
@@ -104,14 +103,17 @@ a:visited{
 
 .bg-Olive{
     background-color: rgba(136, 136, 4, 0.65);
+    box-shadow: inset 6px 3px 5px 2px rgba(94, 94, 0, 0.7);
 }
 
 .bg-Wheat{
     background-color: Wheat;
+    box-shadow: inset -6px -3px 5px 2px rgba(193, 169, 125, 0.7);
 }
 
 .bg-GreenYellow{
     background-color: GreenYellow;
+    box-shadow: inset -6px -3px 5px 2px rgba(112, 171, 24, 0.7);
 }
 
 .card{
@@ -123,7 +125,6 @@ a:visited{
 ul{
     padding: 0 20px;
     list-style: none;
-
 }
 
 ul li{
